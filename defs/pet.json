@@ -1,0 +1,38 @@
+{
+    "name": "Pet",
+    "type": "dynamic",
+    "description": "Autonomous pet hazard with obstacle avoidance",
+    "shape": [
+        { "x": -12, "y": 10 },
+        { "x": 12, "y": 10 },
+        { "x": 12, "y": -10 },
+        { "x": -12, "y": -10 }
+    ],
+    "friction": {
+        "collision": 5,
+        "linear": 40,
+        "rotational": 600
+    },
+    "sensors": [
+        {
+            "type": "range",
+            "location": { "x": 12, "y": 0 },
+            "direction": -0.6,
+            "distance": 50
+        },
+        {
+            "type": "range",
+            "location": { "x": 12, "y": 0 },
+            "direction": 0,
+            "distance": 55
+        },
+        {
+            "type": "range",
+            "location": { "x": 12, "y": 0 },
+            "direction": 0.6,
+            "distance": 50
+        }
+    ],
+    "mass": 1,
+    "controller": "lib/pet.so"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Dust",
+    "type": "dynamic",
+    "description": "Collectible dust for Robot Vacuum Cleanup",
+    "shape": [
+        { "x": -4, "y": 4 },
+        { "x": 4, "y": 4 },
+        { "x": 4, "y": -4 },
+        { "x": -4, "y": -4 }
+    ],
+    "friction": {
+        "collision": 1,
+        "linear": 20,
+        "rotational": 20
+    },
+    "sensors": [],
+    "mass": 0.2,
+    "controller": "lib/dust.so"
+}

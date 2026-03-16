@@ -1,0 +1,124 @@
+{
+
+    "name": "Robot Cleanup",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [
+        {
+        "name": "restart",
+        "label": "Restart",
+        "style": {
+            "background": "white",
+            "border-color": "black"
+        }
+    }
+    ],
+
+    "agents": [ 
+        {
+            "definition": "defs/vacuum_bot.json",
+            "style": { "fill": "lightblue", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/game_manager.json",
+            "style": { "fill": "white", "stroke": "white" },
+            "position": {
+                "x": -330,
+                "y": 230,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/dust.json",
+            "style": { "fill": "gold", "stroke": "black" },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/pet.json",
+            "style": { "fill": "pink", "stroke": "black" },
+            "position": {
+                "x": 120,
+                "y": 80,
+                "theta": 0
+            }
+        }
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        },
+        {
+        "style": { "fill": "#8B5E3C", "stroke": "none" },
+        "shape": [
+            { "x": -220, "y": 80 },
+            { "x": -220, "y": 140 },
+            { "x": -120, "y": 140 },
+            { "x": -120, "y": 80 }
+        ]
+    },
+    {
+        "style": { "fill": "#A67C52", "stroke": "none" },
+        "shape": [
+            { "x": 60, "y": -20 },
+            { "x": 60, "y": 40 },
+            { "x": 170, "y": 40 },
+            { "x": 170, "y": -20 }
+        ]
+    },
+    {
+        "style": { "fill": "#6F4E37", "stroke": "none" },
+        "shape": [
+            { "x": -40, "y": -140 },
+            { "x": -40, "y": -70 },
+            { "x": 40, "y": -70 },
+            { "x": 40, "y": -140 }
+        ]
+    }
+
+    ]
+
+}
