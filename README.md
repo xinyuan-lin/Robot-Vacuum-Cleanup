@@ -1,6 +1,6 @@
 # Robot Vacuum Cleanup
 
-Final project for the Enviro / Elma course.
+Final project for EEP_520_Winter2026.
 
 ## Overview
 
